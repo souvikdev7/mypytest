@@ -157,12 +157,12 @@ from time import sleep
 #print(ff1.readlines())
 
 path = "docs/xyz1.txt"
-ff2 = open(path,"a")
+#ff2 = open(path,"a")
 #ff2.write("\njanta carfew")
-sleep(5)
-#ff3 = open(path,"r")
-print(ff2.read())
-
+#sleep(5)
+ff3 = open(path,"r")
+print(ff3.read())
+print("bye")
 
 
 
