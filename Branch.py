@@ -156,13 +156,24 @@ from time import sleep
 #ff1 = open("docs/ab1.txt","r")
 #print(ff1.readlines())
 
-path = "docs/xyz1.txt"
+#path = "docs/xyz1.txt"
 #ff2 = open(path,"a")
 #ff2.write("\njanta carfew")
 #sleep(5)
-ff3 = open(path,"r")
-print(ff3.read())
-print("bye")
+#ff3 = open(path,"r")
+#print(ff3.read())
+#print("bye")
+
+
+ff5 = open("docs/helpline.jpg","rb")
+#print(ff5.read())
+
+ff6 = open("docs/mygov.jpg","wb")
+
+
+for i in ff5:
+    ff6.write(i)
+
 
 
 
